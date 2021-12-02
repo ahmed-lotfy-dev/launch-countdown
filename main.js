@@ -8,7 +8,7 @@ let secondContainer = document.getElementById("second");
 // Function That Count The Time And The Time Difference
 let countDown = () => {
     const now = new Date().getTime();
-    const countDownDate = new Date("Nov 30, 2021 15:24:59").getTime();
+    const countDownDate = new Date("Jan 1, 2022 15:24:59").getTime();
     const distance = countDownDate - now;
     // Get today's date and time
 
